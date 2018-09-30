@@ -14,7 +14,6 @@
          web-server/servlet-env
          web-server/dispatch
          web-server/templates
-         ;; net/cookies/user-agent
          net/cookies/server
          txexpr
          css-expr
