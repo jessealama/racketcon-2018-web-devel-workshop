@@ -1,0 +1,18 @@
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>SKU</th>
+      <th>Price</th>
+    </tr>
+  </thead>
+  <tbody>
+    @in[p products]{
+    <tr>
+      <td>@(product-name p)</td>
+      <td>@(product-sku p)</td>
+      <td>@(format "~a" (product-price p))</td>
+    </tr>
+    }
+  </tbody>
+</table>

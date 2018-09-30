@@ -1,0 +1,12 @@
+@; display any error messages, if any
+@unless[(empty? messages)]{
+  @include-template["error-messages.html"]
+}
+@; the empty database looks different
+@; from a non-empty db
+@if[(empty? products)
+    @include-template["empty.html"]
+    @include-template["non-empty.html"]
+]
+@; here comes the form for entering new products:
+@(include-template "form.html")
