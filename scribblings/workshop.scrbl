@@ -5,6 +5,12 @@
 
 @defmodule[racketcon-2018-web-devel-workshop]
 
-At the @tt{(eighth RacketCon)}, a number of workshops were held. This document describes the web programming tutorials.
+At the @tt{(eighth RacketCon)}, a number of workshops were held. This document covers the tutorials on web programming.
 
-@include-section["first-tutorial.scrbl"]
+@include-section["first.scrbl"]
+
+@include-section["second.scrbl"]
+
+@include-section["third.scrbl"]
+
+@include-section["fourth.scrbl"]
