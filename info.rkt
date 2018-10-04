@@ -11,7 +11,8 @@
     "http"
     "html-parsing"
     "css-expr"
-    "web-server-lib"))
+    "web-server-lib"
+    "net-cookies-lib"))
 
 (define build-deps
   '("scribble-lib"
