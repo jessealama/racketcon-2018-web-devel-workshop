@@ -1,0 +1,20 @@
+This repository contains code that accompanies the web devel workshop
+held at RacketCon 2018.
+
+There are four different tutorials. They are contained, respectively,
+in {first,second,third,fourth}.rkt.
+
+Install as a Racket package:
+
+    $ raco pkg install racketcon-2018-web-devel-workshop
+
+View documentation:
+
+    $ raco docs racketcon-2018-web-devel-workshop
+
+Run the servers:
+
+    $ raco 2018-web-workshop first
+
+Substitute "second", "third", and "fourth" for "first" to run the
+other servers.
