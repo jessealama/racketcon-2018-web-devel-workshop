@@ -2,7 +2,7 @@
 
 (define collection "racketcon-2018-web-devel-workshop")
 
-(define version "1.0.0")
+(define version "1.0")
 
 (define deps
   '("base"
